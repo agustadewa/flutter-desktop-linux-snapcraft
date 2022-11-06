@@ -9,7 +9,7 @@ icon: snap/gui/icon.png
 
 
 apps:
-   counter:
+   simple-counter:
      command: simple-counter
     #  extensions: [flutter-master]
      plugs:
@@ -17,7 +17,7 @@ apps:
        - desktop
 
 parts:
-  counter:
+  simple-counter:
     source: .
     plugin: nil
     build-snaps: 
