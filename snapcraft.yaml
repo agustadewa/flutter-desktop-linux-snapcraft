@@ -10,7 +10,7 @@ icon: snap/gui/icon.png
 
 apps:
    simple-counter:
-     command: simple-counter
+     command: counter
     #  extensions: [flutter-master]
      plugs:
        - network
