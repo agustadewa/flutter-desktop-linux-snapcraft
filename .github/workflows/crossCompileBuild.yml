@@ -49,7 +49,8 @@ jobs:
 
       # Release this Snap to the channel we choose.
       - uses: snapcore/action-publish@v1
+        run: |
+          export SNAPCRAFT_STORE_CREDENTIALS=${{ secrets.SNAP_TOKEN }}
         with:
-          store_login: ${{ secrets.SNAP_TOKEN }}
           snap: ${{ steps.build.outputs.snap }}
           release: beta
