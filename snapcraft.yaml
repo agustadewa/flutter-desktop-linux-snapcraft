@@ -3,7 +3,7 @@ version: 1.0.0
 summary: Flutter Demo Simple Counter Application
 description: A demo of Simple Counter Application using Flutter
 confinement: strict
-base: core22
+base: core20
 grade: stable
 icon: snap/gui/icon.png
 
