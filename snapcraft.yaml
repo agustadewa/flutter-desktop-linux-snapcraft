@@ -1,4 +1,4 @@
-name: simple-counter
+name: counter
 version: 1.0.0
 summary: Flutter Demo Simple Counter Application
 description: A demo of Simple Counter Application using Flutter
@@ -9,7 +9,7 @@ icon: snap/gui/icon.png
 
 
 apps:
-   simple-counter:
+   counter:
      command: counter
     #  extensions: [flutter-master]
      plugs:
@@ -17,7 +17,7 @@ apps:
        - desktop
 
 parts:
-  simple-counter:
+  counter:
     source: .
     plugin: nil
     build-snaps: 
